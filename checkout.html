@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <link rel="stylesheet" href="styles/checkout.css">
+</head>
+<body>
+    <header>
+        <h1>Checkout</h1>
+        <a href="home.html">
+          <h2>Return to Home</h2>
+        </a>
+    </header>
+    <main>
+        <section class="checkout-container js-checkout-container">
+         
+            <!-- Checkout items will be dynamically added here -->
+        </section>
+        <form action="payment_process.php" method="post">
+            <button type="submit">Proceed to Payment</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2024 Car Listings</p>
+    </footer>
+    <script type="module" src="scripts/checkout.js"></script>
+</body>
+</html>
